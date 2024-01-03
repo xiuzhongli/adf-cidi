@@ -1,0 +1,9 @@
+{
+	"name": "lixzadfsdatafactory1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "532243fa-4c17-4596-98ab-03a03f5a7e10",
+		"tenantId": "cc4532b8-13fc-4545-9812-97eef82e110c"
+	}
+}
