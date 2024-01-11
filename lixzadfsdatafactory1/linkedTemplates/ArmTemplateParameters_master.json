@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "lixzadfsdatafactory1"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"NewAzureDataLakeStorageGen2_accountKey": {
+			"value": ""
+		},
+		"lixzadfotput_connectionString": {
+			"value": ""
+		},
+		"lixzadfsinput_connectionString": {
+			"value": ""
+		},
+		"NewAzureDataLakeStorageGen2_properties_typeProperties_url": {
+			"value": "https://lixzadfs001.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
