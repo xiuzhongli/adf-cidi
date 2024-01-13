@@ -9,17 +9,18 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "foldername",
-				"type": "nvarchar"
+				"name": "OrderId",
+				"type": "int",
+				"precision": 10
 			},
 			{
-				"name": "countoffiles",
+				"name": "OrderUnits",
 				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "countoffiles"
+			"table": "ExpandRage"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
